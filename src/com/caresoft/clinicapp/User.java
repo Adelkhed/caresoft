@@ -3,7 +3,10 @@ package com.caresoft.clinicapp;
 public class User {
 	protected Integer id;
     protected int pin;
-   
+    public User(Integer id) {
+	
+		this.id = id;
+	}
 	public Integer getId() {
 		return id;
 	}
@@ -16,5 +19,6 @@ public class User {
 	public void setPin(int pin) {
 		this.pin = pin;
 	}
+	
 	
 }

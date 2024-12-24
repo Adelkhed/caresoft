@@ -8,8 +8,7 @@ public class Physician extends User implements HIPAACompliantUser {
 	
 	// TO DO: Constructor that takes an IDcopy
 	public Physician(Integer id) {
-		this.id=id;
-		this.patientNotes = new ArrayList<>();
+		super(id);
 	}
     // TO DO: Implement HIPAACompliantUser!
 	@Override
